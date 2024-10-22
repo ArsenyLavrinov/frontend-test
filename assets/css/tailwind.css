@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading-1 {
+    @apply text-[28px] font-bold font-gilroy text-heading leading-[120%];
+  }
+  .heading-2 {
+    @apply text-[24px] font-bold font-gilroy text-heading leading-[120%];
+  }
+  .body-text {
+    @apply text-[16px] font-[600] font-gilroy text-placeholder-text-color leading-[20px];
+  }
+  .center {
+    @apply flex justify-center items-center;
+  }
+  .body-text-small {
+    @apply text-[16px] font-[600] font-gilroy text-base-text  leading-[20px];
+  }
+  .heading-4 {
+    @apply text-[18px] font-bold font-gilroy text-heading leading-[22px];
+  }
+  .caption-text {
+    @apply text-[14px] font-[700] font-mont text-placeholder-text-color leading-[150%];
+  }
+  .heading-3 {
+    @apply text-[20px] font-[800] font-mont text-heading leading-[140%];
+  }
+
+  .container-stretched {
+    @apply container flex flex-row justify-between items-center;
+  }
+  .container-col-gap-8 {
+    @apply flex flex-col gap-2;
+  }
+
+  /* .base-text {
+    @apply text-[16px] font-[600] font-gilroy text-base-text;
+  } */
+  .login__input {
+    @apply w-full bg-[#f6f6f6] rounded-[20px] h-[58px] px-[18px] py-[10px] items-center;
+  }
+  .placeholder-custom-text {
+    @apply text-[16px] font-[600] font-gilroy text-placeholder-text-color leading-[20px];
+  }
+
+  .action-btn {
+    @apply w-full h-[58px] items-center;
+  }
+
+  .action-btn__text {
+    @apply text-[16px] font-bold font-gilroy;
+  }
+  .content-container {
+    @apply container mx-5 max-w-[335px];
+  }
+
+  .hero-bg {
+    @apply bg-[linear-gradient(207.27deg,_rgb(0,_0,_54)_0.666%,rgb(43,_86,_246)_60.073%)];
+  }
+}
