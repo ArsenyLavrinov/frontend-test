@@ -1,15 +1,5 @@
 import type { userInfo } from "~/types";
 
-// export const useAuth = () => {
-//   return useState<userInfo>("isAuthenticated", () => {
-//     return {
-//       isAuthenticated: false,
-//       email: null,
-//       password: null,
-//     };
-//   });
-// };
-
 export const useAuthStore = defineStore("auth", {
   state: (): userInfo => {
     return {
@@ -21,7 +11,6 @@ export const useAuthStore = defineStore("auth", {
 
   actions: {
     signIn(email: string, password: string) {
-      console.log(email, password);
       if (email == "a" && password == "a") {
         this.isAuthenticated = true;
         this.email = "a";
@@ -29,9 +18,6 @@ export const useAuthStore = defineStore("auth", {
 
         navigateTo("/");
       }
-    },
-    checkAuth() {
-      this.isAuthenticated = !!localStorage.getItem("authToken");
     },
   },
 });

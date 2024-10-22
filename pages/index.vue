@@ -43,6 +43,7 @@ definePageMeta({
   pageTransition: {
     name: "page",
   },
+  middleware: "auth",
 });
 
 import { data } from "~/constants/data";
