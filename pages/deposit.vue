@@ -6,7 +6,7 @@
         text="Пополненние депозита"
       ></HeaderWithArrowBack>
       <div class="mt-[50px] flex center">
-        <img src="~/assets/svgs/qr.svg " />
+        <img src="~/assets/svgs/QR.svg " />
       </div>
       <DepositComponent></DepositComponent>
     </NuxtLayout>
