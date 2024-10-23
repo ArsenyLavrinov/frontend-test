@@ -6,7 +6,7 @@
         <div class="flex flex-row items-center justify-between">
           <h1 class="heading-1">Профиль</h1>
 
-          <img class="w-[24px] h-[24px]" src="~/assets/svgs/logout.svg"></img>
+          <img class="w-[24px] h-[24px]" src="~/assets/svgs/Logout.svg"></img>
 
         </div>
       </Header>
