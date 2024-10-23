@@ -15,7 +15,7 @@
           >
             <div class="flex flex-col gap-[22px]">
               <img
-                src="~/assets/svgs/infoIcon.svg"
+                src="~/assets/svgs/InfoIcon.svg"
                 class="h-[21px] w-[21px]"
                 alt=""
               />
