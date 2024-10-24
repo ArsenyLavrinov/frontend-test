@@ -11,8 +11,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        gilroy: ["Roboto", "sans-serif"],
-        mont: ["Montserrat", "sans-serif"],
+        gilroy: ["Gilroy", "sans-serif"],
+        mont: ["Mont", "sans-serif"],
       },
       colors: {
         "warn-color": "#EB5757",

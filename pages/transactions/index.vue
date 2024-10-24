@@ -59,7 +59,14 @@
                   {{ tx.type + " #" + tx.id }}
                 </p>
                 <p class="caption-text text-heading">
-                  {{ new Date(tx.date).toLocaleString() }}
+                  {{
+                    new Date(Date.parse(tx.date))
+                      .toLocaleDateString("ru-RU", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })
+                      .replace(",", " ")
+                  }}
                 </p>
               </div>
               <div class="container-stretched">

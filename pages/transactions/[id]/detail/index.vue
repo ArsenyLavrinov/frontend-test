@@ -21,8 +21,6 @@
             <div>
               <p class="heading-4">{{ status.description }}</p>
               <p class="body-text-small text-placeholder-text-color">
-                {{ console.log(status.date) }}
-
                 {{
                   new Date(Date.parse(status.date))
                     .toLocaleDateString("ru-RU", {

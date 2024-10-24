@@ -25,7 +25,7 @@ export const data = {
       to: "+7 (901) 871-09-12",
       toAmount: 143000,
       bankLogo: "tinkoff.png",
-      finishTime: "2024.10.21 23:00:00",
+      finishTime: "2024.12.24 23:00:00",
       dateTransaction: "2024.06.23 18:34:00",
     },
   },
@@ -80,17 +80,17 @@ export const data = {
         success: true,
         statuses: [
           {
-            date: "24.12.2024 19:02:00",
+            date: "2024.12.24 19:02:00",
             description: "Пополнение создано",
             logo: "txCreated.svg",
           },
           {
-            date: "24.12.2024 19:09:00",
+            date: "2024.12.24 19:09:00",
             description: "Пополнение обрабатывается",
             logo: "txProccess.svg",
           },
           {
-            date: "24.12.2024 19:12:00",
+            date: "2024.12.24 19:12:00",
             description: "Пополнение выполнено",
             logo: "txEnd.svg",
           },
@@ -108,17 +108,17 @@ export const data = {
         success: true,
         statuses: [
           {
-            date: "24.12.2024 19:02:00",
+            date: "2024.12.24 19:02:00",
             description: "Пополнение создано",
             logo: "txCreated.svg",
           },
           {
-            date: "24.12.2024 19:09:00",
+            date: "2024.12.24 19:09:00",
             description: "Пополнение обрабатывается",
             logo: "txProccess.svg",
           },
           {
-            date: "24.12.2024 19:12:00",
+            date: "2024.12.24 19:12:00",
             description: "Пополнение выполнено",
             logo: "txEnd.svg",
           },
@@ -130,7 +130,7 @@ export const data = {
         from: "+7 (901) 871-09-12",
         amount: 1573,
         sum: 12573,
-        date: "2023.07.20 19:00:00",
+        date: "2024.06.23 18:34:00",
         fromBank: "Т-Банк (Тинькофф)",
         bankLogo: "tinkoff.png",
         success: false,
